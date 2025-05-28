@@ -43,9 +43,9 @@ def demander_taille():
 # Demande à l'utilisateur le niveau de difficulté
 def demander_difficulte():
     print("\nChoisissez le niveau de difficulté :")
-    print("1. Facile (10% d'obstacles)")
-    print("2. Moyen  (30% d'obstacles)")
-    print("3. Difficile (50% d'obstacles)")
+    print("1. Facile ")
+    print("2. Moyen ")
+    print("3. Difficile ")
     while True:
         choix = input("Votre choix (1/2/3) : ")
         if choix == "1":
